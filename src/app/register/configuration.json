@@ -1,0 +1,113 @@
+[
+    {
+        "lbl": "Full Name",
+        "type": "text",
+        "errMsg": "",
+        "name": "fullName",
+        "value": "fn",
+        "criteria": [
+            "Required"
+        ]
+    },
+    {
+        "lbl": "User Id",
+        "type": "text",
+        "errMsg": "",
+        "name": "uid",
+        "value": "u1@gmail.com",
+        "criteria": [
+            "Required",
+            "EmailFormat"
+        ]
+    },
+    {
+        "lbl": "Password",
+        "type": "password",
+        "errMsg": "",
+        "name": "pwd",
+        "value": "123456",
+        "criteria": [
+            "Required",
+            "Min5Chars"
+        ]
+    },
+    {
+        "lbl": "Phone",
+        "type": "number",
+        "errMsg": "",
+        "name": "phone",
+        "value": "2222222222",
+        "criteria": [
+            "Required",
+            "Exact10Digits"
+        ]
+    },
+    {
+        "lbl": "Gender",
+        "type": "radio",
+        "errMsg": "",
+        "name": "gender",
+        "value": "F",
+        "criteria": [
+            "Required"
+        ],
+        "options": [
+            "Male",
+            "Female"
+        ],
+        "values": [
+            "M",
+            "F"
+        ]
+    },
+    {
+        "lbl": "Hobbies",
+        "type": "checkbox",
+        "errMsg": "",
+        "name": "hobbies",
+        "value": "cric,fb",
+        "criteria": [
+            "Required"
+        ],
+        "options": [
+            "Cricket",
+            "Hockey",
+            "FootBall"
+        ],
+        "values": [
+            "cric",
+            "hoc",
+            "fb"
+        ]
+    },
+    {
+        "lbl": "Country",
+        "tag": "select",
+        "errMsg": "",
+        "name": "country",
+        "value": "us",
+        "criteria": [
+            "Required"
+        ],
+        "options": [
+            "India",
+            "Unisted States",
+            "China"
+        ],
+        "values": [
+            "ind",
+            "us",
+            "chi"
+        ]
+    },
+    {
+        "lbl": "Address",
+        "tag": "textarea",
+        "errMsg": "",
+        "name": "address",
+        "value": "PUne",
+        "criteria": [
+            "Required"
+        ]
+    }
+]
